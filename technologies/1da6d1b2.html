@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <meta charset="utf-8" />
+       
+      <meta name="keywords" content="博客, GitHub, Hexo, BG2EEO, bianyukun1213, 仿生人会涮电子羊吗, Hollis, his2ndlife" />
+       
+      <meta name="description" content="他的第二人生" />
+      
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>简单美化 Windows Terminal |  他的第二人生</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/images/favicon-32.png" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css"
+      />
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+       
+ 
+
+      <!-- mermaid -->
+      
+    <!-- hexo injector head_end start --><script type="text/javascript">var url=window.location.href;if((!url.endsWith(".html"))&&(!window.location.hash))window.location.replace(url+".html");</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:100,300,400,500,700,900"><style type="text/css">html * {font-family: Noto Serif SC !important}</style><!-- hexo injector head_end end --><link rel="alternate" href="/atom.xml" title="他的第二人生" type="application/atom+xml">
+<link rel="manifest" href="/manifest.json" /></head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      <canvas class="fireworks"></canvas>
+      <style>
+        .fireworks {
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 99999;
+          pointer-events: none;
+        }
+      </style>
+      
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-technologies/简单美化-Windows-Terminal"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  简单美化 Windows Terminal
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/technologies/1da6d1b2.html" class="article-date">
+  <time datetime="2020-05-31T03:29:00.000Z" itemprop="datePublished">2020-05-31</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/technologies/">技术</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">719</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">2 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>前阵子微软发布了 Windows Terminal 的正式版本，但是这长相也太「规矩」了，浓眉大眼的，咱们得给它稍稍打扮一下。</p>
+<p><img src="https://s1.ax1x.com/2020/05/31/tlz9Pg.png" alt="效果"></p>
+<span id="more"></span>
+<hr>
+<h2 id="第一部分：设置-Powerline">第一部分：设置 Powerline</h2>
+<blockquote>
+<p>「Powerline 提供自定义的命令提示符体验，提供 Git 状态颜色编码和提示符。」</p>
+</blockquote>
+<h3 id="为-PowerShell-设置-Powerline">为 PowerShell 设置 Powerline</h3>
+<ol>
+<li>
+<p>在 <a target="_blank" rel="noopener" href="https://github.com/microsoft/cascadia-code/releases">Github</a> 上下载支持 Powerline 字形的字体文件（CascadiaCodePL.otf）并安装。</p>
+</li>
+<li>
+<p>安装 Git。</p>
+</li>
+<li>
+<p>安装 posh-git 和 oh-my-posh（需要您允许从「不受信任的存储库」来安装，选择「全是」选项）。</p>
+ <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser</span><br><span class="line"><span class="built_in">Install-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>以管理员身份打开 PowerShell 并键入 <code>set-ExecutionPolicy RemoteSigned</code> ，选择「全是」选项允许脚本的运行。</p>
+</li>
+<li>
+<p>键入 <code>notepad $PROFILE</code> 打开 PoerShell 的配置文件，添加以下语句并保存。</p>
+ <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Import-Module</span> posh<span class="literal">-git</span></span><br><span class="line"><span class="built_in">Import-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span></span><br><span class="line"><span class="built_in">Set-Theme</span> Paradox</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="为-Ubuntu-设置-Powerline（如果您不用-WSL-可忽略此步）">为 Ubuntu 设置 Powerline（如果您不用 WSL 可忽略此步）</h3>
+<ol>
+<li>
+<p>在本机上键入 <code>ipconfig</code> 查看 IPv4 地址。</p>
+</li>
+<li>
+<p>在 Ubuntu 上键入以下语句来设置代理，确保正常连接 GitHub。注意代理软件要设置为允许来自局域网的连接，同时不要忘记使用您自己的 IP 地址及端口，文章中的 IP 地址及端口仅为占位符。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> http_proxy = <span class="string">&quot;http://&lt;Windows IP&gt;:&lt;Port&gt;&quot;</span></span><br><span class="line"><span class="built_in">export</span> https_proxy = <span class="string">&quot;http://&lt;Windows IP&gt;:&lt;Port&gt;&quot;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>安装 Go 和 Powerline。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install golang-go</span><br><span class="line">go get -u github.com/justjanne/powerline-go</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>使用 Vim 等编辑器编辑 <code>~/.bashrc</code> 文件，添加以下语句并保存。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">GOPATH = <span class="variable">$HOME</span>/go</span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">_update_ps1</span></span>() &#123;</span><br><span class="line">    PS1 = <span class="string">&quot;<span class="subst">$($GOPATH/bin/powerline-go -error $?)</span>&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$TERM</span>&quot;</span> != <span class="string">&quot;linux&quot;</span> ] &amp;&amp; [ -f <span class="string">&quot;<span class="variable">$GOPATH</span>/bin/powerline-go&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">    PROMPT_COMMAND = <span class="string">&quot;_update_ps1; <span class="variable">$PROMPT_COMMAND</span>&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="第二部分：修改-Windows-Terminal-配置文件">第二部分：修改 Windows Terminal 配置文件</h2>
+<ol>
+<li>
+<p>在 Windows Terminal 中按下 <code>Ctrl</code> 和 <code>,</code> 组合键打开配置文件。</p>
+</li>
+<li>
+<p>在 <code>defaults</code> 对象中添加以下内容。</p>
+ <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&quot;useAcrylic&quot;: true, //使用亚克力效果。</span><br><span class="line">&quot;acrylicOpacity&quot;: 0.75, //设置亚克力效果透明度数值为 0.75。</span><br><span class="line">&quot;colorScheme&quot;: &quot;One Half Dark&quot;, //使用 One Half Dark 配色。</span><br><span class="line">&quot;fontFace&quot;: &quot;Cascadia Code PL&quot; //使用 Cascadia Code PL 字体以显示编程连字及 Powerline 字形。</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<hr>
+<p>  自此我对 Windows Terminal 的简单美化便完成了。</p>
+<p>  您还可以阅读 <a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/windows/terminal/">官方文档</a> 去了解如何设置背景图像、如何启用怀旧式命令提示符效果，打造独一无二的终端体验。</p>
+<p>  另外，每次更新博客都要运行 <code>hexo clean;;hexo g;;hexo d;;hexo b</code> 这条命令过于麻烦。我们可以在 PowerShell 的 <code>$PROFILE</code> 文件内添加这条语句：<code>function go &#123;hexo clean;;hexo g;;hexo d;;hexo b&#125;</code>，然后重启 PowerShell。这样的话，更新博客的时候只需要使用 <code>go</code> 就可以了。</p>
+<hr>
+<h2 id="参考文章">参考文章</h2>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/windows/terminal/tutorials/powerline-setup">《Windows 终端 Powerline 设置》</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/4eaad2163567">《PowerShell：因为在此系统上禁止运行脚本，解决方法》</a></li>
+<li><a target="_blank" rel="noopener" href="https://zinglix.xyz/2020/04/18/WSL2-proxy/">《WSL2 中访问宿主机 Windows 的代理》</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/profile-settings">《Windows 终端配置文件设置》</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes">《Windows 终端配色方案》</a></li>
+</ul>
+<hr>
+<p>完。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script> 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://his2nd.life/technologies/1da6d1b2.html" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sharing/" rel="tag">分享</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+      <a href="/games/c51fdb4b.html" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            《石之心》通关
+          
+        </div>
+      </a>
+    
+    
+      <a href="/games/1a632100.html" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">一款来自委内瑞拉的独立游戏——VA-11 Hall-A: Cyberpunk Bartender Action</div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "2Ft8nmr4bkWShuNIHC9BXNvX-MdYXbMMI",
+    app_key: "QasDlOksnY2I3osg4bhkAiXb",
+    path: window.location.pathname,
+    avatar: "robohash",
+    placeholder: "说点什么？",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+     
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2020-2021
+        <i class="ri-heart-fill heart_icon"></i> Hollis
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        
+        由 <a href="https://hexo.io" target="_blank">Hexo</a> 强力驱动
+        <span class="division">|</span>
+        主题 - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+      <div class="float_btns">
+        <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+      </div>
+    </main>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/blog-logo.png" alt="他的第二人生"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/jottings">随笔</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/friends">友链</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧！</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.png">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat-pay.png">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-2.0.3.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script>
+
+<script src="/js/clickBoom1.js"></script>
+ 
+<!-- ClickBoom2 -->
+
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+  </div>
+<!-- hexo injector body_end start --><script type="text/javascript">if(window.location.hash)var checkExist=setInterval(function(){if($(window.location.hash).length){$("html, body").animate({scrollTop:$(window.location.hash).offset().top-90},1000);clearInterval(checkExist)}},100);</script><script type="text/javascript">var timezone=8;var offsetGMT=new Date().getTimezoneOffset();var currentDate=new Date().getTime();var convertedDate=new Date(currentDate+offsetGMT*60*1000+timezone*60*60*1000).getTime();tags=document.getElementsByTagName('time');for(const key in tags){if(Object.hasOwnProperty.call(tags,key)){var postDate=new Date(tags[key].innerText).getTime();if(convertedDate-postDate>=2678400000)tags[key].innerText+='（此文章已过维护期，其内容可能过时）';}}</script><!-- hexo injector body_end end -->
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
+</script>
+</body>
+
+</html>

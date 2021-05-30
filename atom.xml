@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>他的第二人生</title>
+  <icon>https://his2nd.life/favicon-32.png</icon>
+  <subtitle>His Second Life</subtitle>
+  <link href="https://his2nd.life/atom.xml" rel="self"/>
+  
+  <link href="https://his2nd.life/"/>
+  <updated>2021-05-30T06:05:25.251Z</updated>
+  <id>https://his2nd.life/</id>
+  
+  <author>
+    <name>Hollis</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用 Blender 制作一个甜甜圈</title>
+    <link href="https://his2nd.life/technologies/2edcaad5.html"/>
+    <id>https://his2nd.life/technologies/2edcaad5.html</id>
+    <published>2021-05-19T11:05:16.000Z</published>
+    <updated>2021-05-30T06:05:25.251Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Guru 的甜甜圈制作教程是非常经典的教程了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://his2nd.life/categories/technologies/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="3D" scheme="https://his2nd.life/tags/3d/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《爱，死亡和机器人》第二季播出</title>
+    <link href="https://his2nd.life/films-and-televisions/a9296a55.html"/>
+    <id>https://his2nd.life/films-and-televisions/a9296a55.html</id>
+    <published>2021-05-16T12:53:25.000Z</published>
+    <updated>2021-05-30T06:05:25.224Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Love, Death &amp;amp; Robots&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
+    
+    <category term="观后感" scheme="https://his2nd.life/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跳集体舞？不，我选择骑车出来玩儿！</title>
+    <link href="https://his2nd.life/life/12af4e31.html"/>
+    <id>https://his2nd.life/life/12af4e31.html</id>
+    <published>2021-05-10T14:27:26.000Z</published>
+    <updated>2021-05-30T06:05:25.243Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;众所周知，我们学校有个“非物质文化遗产”叫集体舞……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://his2nd.life/categories/life/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="学校" scheme="https://his2nd.life/tags/school/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>值得一玩的 FPS 佳作——《泰坦天降 2》</title>
+    <link href="https://his2nd.life/games/91c9abe0.html"/>
+    <id>https://his2nd.life/games/91c9abe0.html</id>
+    <published>2021-05-09T16:46:20.000Z</published>
+    <updated>2021-05-30T06:05:25.234Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“库柏，相信我。”&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《极乐迪斯科》：诗一般的角色扮演游戏</title>
+    <link href="https://his2nd.life/games/b05d0e3b.html"/>
+    <id>https://his2nd.life/games/b05d0e3b.html</id>
+    <published>2021-05-05T13:42:01.000Z</published>
+    <updated>2021-05-30T06:05:25.231Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“第一次死亡是在心里的，哈里。”&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>越想越亏</title>
+    <link href="https://his2nd.life/life/dce223ef.html"/>
+    <id>https://his2nd.life/life/dce223ef.html</id>
+    <published>2021-04-28T13:52:48.000Z</published>
+    <updated>2021-05-30T06:05:25.243Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;和骗子聊了二十分钟，到最后也没骂他，我真是好心。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://his2nd.life/categories/life/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="学校" scheme="https://his2nd.life/tags/school/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《爱在黎明破晓前》</title>
+    <link href="https://his2nd.life/films-and-televisions/3667c594.html"/>
+    <id>https://his2nd.life/films-and-televisions/3667c594.html</id>
+    <published>2021-04-25T15:28:17.000Z</published>
+    <updated>2021-05-30T06:05:25.223Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;真是甜到我了！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="观后感" scheme="https://his2nd.life/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《阳光灿烂的日子》</title>
+    <link href="https://his2nd.life/films-and-televisions/3f1c96e0.html"/>
+    <id>https://his2nd.life/films-and-televisions/3f1c96e0.html</id>
+    <published>2021-04-24T16:27:39.000Z</published>
+    <updated>2021-05-30T06:05:25.226Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“古伦木！”&lt;/p&gt;
+&lt;p&gt;“傻逼！”&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="观后感" scheme="https://his2nd.life/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4 月 3 日清明节假期骑行</title>
+    <link href="https://his2nd.life/life/df8b9740.html"/>
+    <id>https://his2nd.life/life/df8b9740.html</id>
+    <published>2021-04-03T06:55:56.000Z</published>
+    <updated>2021-05-30T06:05:25.238Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;顶风冲上坡那个酸爽……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://his2nd.life/categories/life/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="学校" scheme="https://his2nd.life/tags/school/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Black Mesa：对 Half-Life 的完美还原</title>
+    <link href="https://his2nd.life/games/6bc7e4f7.html"/>
+    <id>https://his2nd.life/games/6bc7e4f7.html</id>
+    <published>2021-03-31T15:56:43.000Z</published>
+    <updated>2021-05-30T06:05:25.229Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;The &lt;strong&gt;SOURCE&lt;/strong&gt; of everything.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>城市探险系列第三期——哈尔滨铁道职业技术学院旧址</title>
+    <link href="https://his2nd.life/life/e2da606e.html"/>
+    <id>https://his2nd.life/life/e2da606e.html</id>
+    <published>2021-02-07T14:56:13.000Z</published>
+    <updated>2021-05-30T06:05:25.240Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“阴间人就要去阴间地方。”&lt;/p&gt;
+&lt;p&gt;——“海森堡”&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://his2nd.life/categories/life/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="城市探险" scheme="https://his2nd.life/tags/urban-exploration/"/>
+    
+    <category term="哈尔滨" scheme="https://his2nd.life/tags/harbin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这个寒假，我都看（玩）了些什么</title>
+    <link href="https://his2nd.life/films-televisions-and-games/fadd3e14.html"/>
+    <id>https://his2nd.life/films-televisions-and-games/fadd3e14.html</id>
+    <published>2021-01-29T02:41:28.000Z</published>
+    <updated>2021-05-30T06:05:25.228Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;又被疫情锁在家里了……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
+    
+    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
+    
+    <category term="观后感" scheme="https://his2nd.life/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《泰坦尼克号》：跨越世纪的经典</title>
+    <link href="https://his2nd.life/films-and-televisions/80c38828.html"/>
+    <id>https://his2nd.life/films-and-televisions/80c38828.html</id>
+    <published>2021-01-15T03:40:14.000Z</published>
+    <updated>2021-05-30T06:05:25.223Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“You jump, I jump.”&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="观后感" scheme="https://his2nd.life/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Pkav HTTP Fuzzer 对校园网进行「安全测试」</title>
+    <link href="https://his2nd.life/technologies/3380cd35.html"/>
+    <id>https://his2nd.life/technologies/3380cd35.html</id>
+    <published>2020-12-23T15:25:47.000Z</published>
+    <updated>2021-05-30T06:05:25.246Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记得改掉默认密码！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://his2nd.life/categories/technologies/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="学校" scheme="https://his2nd.life/tags/school/"/>
+    
+    <category term="搞事" scheme="https://his2nd.life/tags/prank/"/>
+    
+    <category term="网络" scheme="https://his2nd.life/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《后翼弃兵》：现在，我发现我喜欢上了另一个 Elizabeth……</title>
+    <link href="https://his2nd.life/films-and-televisions/efc1f250.html"/>
+    <id>https://his2nd.life/films-and-televisions/efc1f250.html</id>
+    <published>2020-12-22T14:10:17.000Z</published>
+    <updated>2021-05-30T06:05:25.222Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;女主角这表情和动作也太撩了……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="观后感" scheme="https://his2nd.life/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《天外世界》：Obsidian Entertainment 的无厘头「以太连续剧」</title>
+    <link href="https://his2nd.life/games/26b6de5e.html"/>
+    <id>https://his2nd.life/games/26b6de5e.html</id>
+    <published>2020-11-25T15:18:38.000Z</published>
+    <updated>2021-05-30T06:05:25.231Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;「既已见过曾经沧海，何不看看天涯芳草？」&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>办理中国工商银行信用卡并订阅港版 Adobe 摄影计划</title>
+    <link href="https://his2nd.life/technologies/41057ef8.html"/>
+    <id>https://his2nd.life/technologies/41057ef8.html</id>
+    <published>2020-11-18T09:36:48.000Z</published>
+    <updated>2021-05-30T06:05:25.247Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;中国工商银行的宇宙星座卡校园版是申请门槛最低的大学生信用卡，但缺点是默认 0 额度。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://his2nd.life/categories/technologies/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《尤比克》：《时代》周刊评 1923 年来百佳长篇小说之一</title>
+    <link href="https://his2nd.life/books/1f20be12.html"/>
+    <id>https://his2nd.life/books/1f20be12.html</id>
+    <published>2020-11-04T13:18:05.000Z</published>
+    <updated>2021-05-30T06:05:25.220Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;「利用现代尖端科技，逆转物质退化，经济实惠，共管式公寓屋主都能承受。尤比克在全球各大居家艺术门店有售。请到常去购物的店里垂询。」&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="书籍" scheme="https://his2nd.life/categories/books/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="读后感" scheme="https://his2nd.life/tags/after-reading/"/>
+    
+    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用 Blender 制作一个卡通风格小屋</title>
+    <link href="https://his2nd.life/technologies/17e3a8da.html"/>
+    <id>https://his2nd.life/technologies/17e3a8da.html</id>
+    <published>2020-10-10T09:28:42.000Z</published>
+    <updated>2021-05-30T06:05:25.250Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/10/10/0yhp36.png&quot; alt=&quot;图片&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://his2nd.life/categories/technologies/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="3D" scheme="https://his2nd.life/tags/3d/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「跟着弗里曼！」</title>
+    <link href="https://his2nd.life/games/d19e5dcb.html"/>
+    <id>https://his2nd.life/games/d19e5dcb.html</id>
+    <published>2020-10-07T13:03:24.000Z</published>
+    <updated>2021-05-30T06:05:25.233Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我就知道我物理学得很好！好吧，我是指物理超度。（拿起撬棍）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
+    
+  </entry>
+  
+</feed>
