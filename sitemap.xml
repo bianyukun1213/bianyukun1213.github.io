@@ -438,7 +438,7 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/after-reading/</loc>
+    <loc>https://his2nd.life/tags/review/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -452,13 +452,6 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/review/</loc>
-    <lastmod>2021-05-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://his2nd.life/tags/animation/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
@@ -466,7 +459,14 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/school/</loc>
+    <loc>https://his2nd.life/tags/after-reading/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/tags/fantasy/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -487,14 +487,7 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/travel-note/</loc>
-    <lastmod>2021-05-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/tags/fantasy/</loc>
+    <loc>https://his2nd.life/tags/school/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -502,6 +495,13 @@
   
   <url>
     <loc>https://his2nd.life/tags/prank/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/tags/travel-note/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -545,13 +545,6 @@
 
   
   <url>
-    <loc>https://his2nd.life/categories/books/</loc>
-    <lastmod>2021-05-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://his2nd.life/categories/films-and-televisions/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
@@ -559,14 +552,7 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/categories/music/</loc>
-    <lastmod>2021-05-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/categories/life/</loc>
+    <loc>https://his2nd.life/categories/books/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -580,7 +566,21 @@
   </url>
   
   <url>
+    <loc>https://his2nd.life/categories/life/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://his2nd.life/categories/technologies/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/categories/music/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
