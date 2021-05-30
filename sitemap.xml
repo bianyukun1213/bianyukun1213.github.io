@@ -431,21 +431,7 @@
 
   
   <url>
-    <loc>https://his2nd.life/tags/science-fiction/</loc>
-    <lastmod>2021-05-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://his2nd.life/tags/sharing/</loc>
-    <lastmod>2021-05-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/tags/review/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -459,14 +445,21 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/animation/</loc>
+    <loc>https://his2nd.life/tags/science-fiction/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/fantasy/</loc>
+    <loc>https://his2nd.life/tags/review/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/tags/animation/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -508,7 +501,7 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/network/</loc>
+    <loc>https://his2nd.life/tags/fantasy/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -516,6 +509,13 @@
   
   <url>
     <loc>https://his2nd.life/tags/amateur-radio/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/tags/network/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -545,13 +545,6 @@
 
   
   <url>
-    <loc>https://his2nd.life/categories/films-and-televisions/</loc>
-    <lastmod>2021-05-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://his2nd.life/categories/books/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
@@ -559,7 +552,7 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/categories/games/</loc>
+    <loc>https://his2nd.life/categories/films-and-televisions/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -581,6 +574,13 @@
   
   <url>
     <loc>https://his2nd.life/categories/music/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/categories/games/</loc>
     <lastmod>2021-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
