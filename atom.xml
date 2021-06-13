@@ -6,7 +6,7 @@
   <link href="https://his2nd.life/atom.xml" rel="self"/>
   
   <link href="https://his2nd.life/"/>
-  <updated>2021-06-07T14:34:14.442Z</updated>
+  <updated>2021-06-13T14:59:16.544Z</updated>
   <id>https://his2nd.life/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6 月 13 日的碎碎念</title>
+    <link href="https://his2nd.life/life/cd1d7705.html"/>
+    <id>https://his2nd.life/life/cd1d7705.html</id>
+    <published>2021-06-13T14:46:53.000Z</published>
+    <updated>2021-06-13T14:59:16.544Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我是傻逼。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://his2nd.life/categories/life/"/>
+    
+    
+    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
+    
+  </entry>
   
   <entry>
     <title>用 Blender 制作一个甜甜圈</title>
@@ -271,9 +290,9 @@
     
     
     
-    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
-    
     <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
+    
+    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
     
     
     <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
@@ -438,27 +457,6 @@
     <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
     
     <category term="3D" scheme="https://his2nd.life/tags/3d/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「跟着弗里曼！」</title>
-    <link href="https://his2nd.life/games/d19e5dcb.html"/>
-    <id>https://his2nd.life/games/d19e5dcb.html</id>
-    <published>2020-10-07T13:03:24.000Z</published>
-    <updated>2021-05-30T06:05:25.233Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;我就知道我物理学得很好！好吧，我是指物理超度。（拿起撬棍）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
-    
-    
-    <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
-    
-    <category term="科幻" scheme="https://his2nd.life/tags/science-fiction/"/>
     
   </entry>
   
