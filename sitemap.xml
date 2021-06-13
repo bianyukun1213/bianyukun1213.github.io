@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://his2nd.life/technologies/2edcaad5.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://his2nd.life/life/cd1d7705.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://his2nd.life/technologies/35a15276.html</loc>
     
     <lastmod>2021-06-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/technologies/2edcaad5.html</loc>
-    
-    <lastmod>2021-06-07</lastmod>
     
   </url>
   
@@ -473,6 +473,13 @@
   </url>
   
   <url>
+    <loc>https://his2nd.life/tags/fantasy/</loc>
+    <lastmod>2021-06-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://his2nd.life/tags/prank/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
@@ -481,13 +488,6 @@
   
   <url>
     <loc>https://his2nd.life/tags/school/</loc>
-    <lastmod>2021-06-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/tags/fantasy/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -566,6 +566,13 @@
   </url>
   
   <url>
+    <loc>https://his2nd.life/categories/games/</loc>
+    <lastmod>2021-06-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://his2nd.life/categories/life/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
@@ -574,13 +581,6 @@
   
   <url>
     <loc>https://his2nd.life/categories/technologies/</loc>
-    <lastmod>2021-06-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/categories/games/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
