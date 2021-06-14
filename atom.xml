@@ -6,7 +6,7 @@
   <link href="https://his2nd.life/atom.xml" rel="self"/>
   
   <link href="https://his2nd.life/"/>
-  <updated>2021-06-13T15:00:26.704Z</updated>
+  <updated>2021-06-14T03:07:54.535Z</updated>
   <id>https://his2nd.life/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://his2nd.life/life/cd1d7705.html"/>
     <id>https://his2nd.life/life/cd1d7705.html</id>
     <published>2021-06-13T14:46:53.000Z</published>
-    <updated>2021-06-13T15:00:26.704Z</updated>
+    <updated>2021-06-14T03:07:54.535Z</updated>
     
     
     <summary type="html">&lt;p&gt;我是傻逼。&lt;/p&gt;</summary>
@@ -290,9 +290,9 @@
     
     
     
-    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
-    
     <category term="游戏" scheme="https://his2nd.life/categories/games/"/>
+    
+    <category term="影视" scheme="https://his2nd.life/categories/films-and-televisions/"/>
     
     
     <category term="分享" scheme="https://his2nd.life/tags/sharing/"/>
