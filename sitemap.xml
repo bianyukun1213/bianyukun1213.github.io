@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://his2nd.life/games/26b6de5e.html</loc>
+    
+    <lastmod>2021-06-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://his2nd.life/life/cd1d7705.html</loc>
     
     <lastmod>2021-06-14</lastmod>
@@ -296,13 +303,6 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/games/26b6de5e.html</loc>
-    
-    <lastmod>2021-05-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://his2nd.life/games/c85e4f8e.html</loc>
     
     <lastmod>2021-05-30</lastmod>
@@ -438,20 +438,6 @@
 
   
   <url>
-    <loc>https://his2nd.life/tags/sharing/</loc>
-    <lastmod>2021-06-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/tags/after-reading/</loc>
-    <lastmod>2021-06-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://his2nd.life/tags/science-fiction/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
@@ -459,7 +445,7 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/fantasy/</loc>
+    <loc>https://his2nd.life/tags/sharing/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -473,7 +459,21 @@
   </url>
   
   <url>
+    <loc>https://his2nd.life/tags/after-reading/</loc>
+    <lastmod>2021-06-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://his2nd.life/tags/animation/</loc>
+    <lastmod>2021-06-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/tags/fantasy/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -508,13 +508,6 @@
   </url>
   
   <url>
-    <loc>https://his2nd.life/tags/travel-note/</loc>
-    <lastmod>2021-06-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://his2nd.life/tags/amateur-radio/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
@@ -523,6 +516,13 @@
   
   <url>
     <loc>https://his2nd.life/tags/network/</loc>
+    <lastmod>2021-06-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://his2nd.life/tags/travel-note/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -552,6 +552,13 @@
 
   
   <url>
+    <loc>https://his2nd.life/categories/films-and-televisions/</loc>
+    <lastmod>2021-06-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://his2nd.life/categories/books/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
@@ -560,13 +567,6 @@
   
   <url>
     <loc>https://his2nd.life/categories/games/</loc>
-    <lastmod>2021-06-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://his2nd.life/categories/films-and-televisions/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
